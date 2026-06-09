@@ -1,0 +1,15 @@
+{
+  "latent_dim": 64,
+  "n_layers": 8,
+  "hidden_dims": [
+    512,
+    512
+  ],
+  "pretrain_epochs": 100,
+  "n_epochs": 400,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "batch_size": 256,
+  "device": "mps",
+  "best_val_nll": -184.69460910919767
+}

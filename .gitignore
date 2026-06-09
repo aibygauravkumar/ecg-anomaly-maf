@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# large data files — download from Kaggle (see README)
+data/*.csv
+
+# large model weights
+outputs/*.pt
+outputs/*.npy
+
+# generated detection session plots
+outputs/detections/
+
+# keep placeholder files and result assets
+!data/.gitkeep
+!outputs/.gitkeep
+
+venv/
+.env
