@@ -2,7 +2,9 @@
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0%2B-orange?logo=pytorch&logoColor=white)](https://pytorch.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-web%20app-red?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-web%20app-red?logo=streamlit&logoColor=white)](https://huggingface.co/spaces/Aibygaurav/ecg-anomaly-maf)
+[![HF Space](https://img.shields.io/badge/🤗%20HF-Live%20Demo-yellow)](https://huggingface.co/spaces/Aibygaurav/ecg-anomaly-maf)
+[![HF Model](https://img.shields.io/badge/🤗%20HF-Model%20Weights-yellow)](https://huggingface.co/Aibygaurav/ecg-anomaly-maf)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 Unsupervised cardiac arrhythmia detection on ECG signals, built **entirely from scratch in PyTorch** — no normalising flow libraries used.
@@ -149,7 +151,7 @@ ecg-anomaly-maf/
 ## Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ecg-anomaly-maf
+git clone https://github.com/aibygauravkumar/ecg-anomaly-maf
 cd ecg-anomaly-maf
 
 python -m venv venv
